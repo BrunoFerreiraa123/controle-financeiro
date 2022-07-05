@@ -1,6 +1,6 @@
 import React from "react";
 import GridItem from "../GridItem";
-import * as C from "./styles";
+import * as C from "./style";
 
 const Grid = ({ itens, setItens }) => {
   const onDelete = (ID) => {
