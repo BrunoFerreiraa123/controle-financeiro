@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Grid from "../Grid";
-import * as C from "./styles";
+import * as C from "./style";
 
 const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
   const [desc, setDesc] = useState("");
